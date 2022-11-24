@@ -1,0 +1,133 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color:  #292626;
+}
+
+header {
+    background:  #292626;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #292626;
+    color: #E1D9D1;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar p {
+	margin: 2em;
+	
+}
+
+.logo {
+	width: 80px;
+	margin: 0 20px 0  20px;
+}
+
+.navbar-link ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-link li {
+    list-style: none;
+}
+
+.navbar-link li a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #E1D9D1;
+    padding: 1.2rem;
+    display: block;
+    margin-right: 300px;
+    cursor: pointer;
+}
+
+.navbar-link a:hover {
+    opacity: 0.7;
+    color: hsl(118, 78%, 44%);
+    padding-left: 2.5rem ;
+    transition: .3s;
+}
+
+.producto {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.producto li {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #E1D9D1;
+    border-radius: 10px;
+    margin-top: 2em;
+   
+}
+
+.producto li:hover {
+    border-color: hsl(118, 78%, 44%);
+}
+
+.producto li:active {
+    border-color: #081c8c;  
+}
+
+.producto li:hover h2 {
+    font-size: 34px;
+}
+
+.producto h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #E1D9D1;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+    color: #E1D9D1;
+}
+
+.producto-precio {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #E1D9D1;
+}
+
+.producto li a {
+    color: #E1D9D1;
+    font-size: larger;    
+}
+
+.producto li:hover a {
+    color: hsl(118, 78%, 44%);
+    font-size: 30px;
+}
+
+.producto img {
+    height: 300px;
+    width: 50%;    
+    border-radius: 5%;
+}
+
+footer{
+     text-align: center;
+     background: url("bg.jpg");
+     padding: 40px 0;
+}
+
+.copyright{
+     color: #ffffff;
+     font-size: 13px;
+     margin-top: 20px;
+}

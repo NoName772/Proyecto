@@ -1,0 +1,159 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color:  #292626;
+}
+
+header {
+    background:  #292626;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #292626;
+    color: #E1D9D1;
+    font-family: 'Papyrus' /*'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif*/;
+}
+
+.logo {
+	justify-self: unset;
+	width: 120px;
+	margin: 0 20px 0  20px;
+}
+
+.navbar-link ul {
+    padding: 0;
+    display: flex;
+}
+
+.navbar-link li {
+    list-style: none;
+}
+
+.navbar-link li a {
+    font-size: 1.5rem;
+	align-content: center;
+    text-decoration: none;
+    color: #E1D9D1;
+    padding: 1.2rem;
+    display: block;
+    margin-right: 150px;
+    cursor: pointer;
+}
+
+.navbar-link a:hover {
+    opacity: 0.7;
+    color: hsl(118, 78%, 44%);
+    padding-left: 2.5rem ;
+    transition: .3s;
+}
+
+.titulo-principal {
+	text-align: center ;
+	font-size: 3em;
+	margin: 0 0 1em;
+	clear: left;
+	color: #E1D9D1;
+	font-family: 'Papyrus';
+}
+
+.principal {
+	padding: 3em 0;
+	background:  #292626;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	text-align: center;
+	margin: 0 0 1em;
+	color: #E1D9D1;
+}
+
+.principal strong {
+	font-weight: bold;
+	color:hsl(118, 78%, 44%);
+}
+
+.principal em {
+	 font-style: italic;
+ }
+
+.utensilio {
+	display: block;
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid hsl(118, 78%, 44%);
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient( #292626);
+	text-align: center;
+}
+
+.mapa iframe{
+	width: 940px;
+	margin: 0 auto;
+	border-radius: 40px;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+	color: #E1D9D1;
+}
+
+.beneficio {
+	padding: 3em 0;
+	background:  #292626;
+}
+
+.imagen-beneficio {
+	display: block;
+    margin: 0 auto;
+    width: 75%;
+	border: 1px solid hsl(118, 78%, 44%);
+}
+
+.contenido-beneficio {
+	width: 640px;
+	margin: 0 auto;
+	display: block;
+    margin: 0 auto;
+    width: 50%;
+    
+}
+
+.lista-beneficio {
+	color: #E1D9D1;
+	display: block;
+    margin: 0 auto;
+    width: 80%;
+	text-align: center;
+	margin-top: 1.5em;
+}
+
+.iten {
+	line-height: 2em; 
+    font-size: x-large;
+    
+}
+
+.iten:before {
+	content: "✔ ";
+	color: chartreuse;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #ffffff;
+	font-size: 13px;
+	margin-top: 20px;
+}

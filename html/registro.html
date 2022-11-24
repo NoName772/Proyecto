@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width">
+   <title>Registro - Barberia El Vikingo </title>
+   <link rel= "stylesheet" href="/css/reset.css">
+   <link rel= "stylesheet" href="/css/registro.css">
+   <link rel="stylesheet"  href="/css/style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+				<img src="/imagenes/logo blanco.png" alt="Logo de Página" class="logo">
+				<div class="navbar-link">
+					<ul>
+						<li><a href="/index.html">Inicio</a></li>
+						<li><a href="/html/productos.html">Servicios</a></li>
+						<li><a href="/html/registro.html">Registro</a></li>
+					</ul>
+				</div>
+			</nav>
+        </header>
+
+        <main>
+            <form>
+                <label for="nombcomple">Nombre completo</label>
+                <input type="text" id="nombcomple" class="input-patron" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" class="input-patron" required placeholder="usuario@dominio.com"> 
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" class="input-patron" required placeholder="(+ xxx) xxx-xxx-xx">
+
+                <label for="mensaje">Comentarios</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-patron" required></textarea>
+
+                <fieldset>
+                    <legend>Como prefiere que lo contactemos?</p><br>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+                    
+                    <label for="radio-telefono"><input type="radio" name="contato" value="telefone" id="radio-telefono">Llamada</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+                    
+                </fieldset>
+
+                <fieldset>
+                    <legend>En que horario prefiere ser atendido</p><br>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </fieldset>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Turno</th>   
+                            <th>Horario</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mañana</td>   
+                            <td>08:00 ~ 12:00</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>Tarde</td>   
+                            <td>13:00 ~ 19:00</td>
+                        </tr>
+                        <tr>
+                            <td>Noche</td>   
+                            <td>19:00 ~ 22:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <label class="checkbox" ><input type="checkbox" checked>Le gustaría recibir novedades y promociones?</label>
+                
+                <input type="submit" value="Enviar formulario"  class="enviar">
+
+            </form>
+
+
+        </main>
+
+        <footer>
+            <img src="/imagenes/logo blanco.png" alt="Logo">
+            <p class="copyright">&copy;copyright Barberia El Vikingo</p>
+        </footer>
+
+    </body>
